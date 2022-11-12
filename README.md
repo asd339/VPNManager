@@ -1,4 +1,4 @@
-# VPN Manager - Android
+# VPN Manager
 
 VPN management/automation application for Android
 

@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        app:key="show_toggle_notif"
+        app:summary="@string/toggle_notif_setting_desc"
+        app:title="@string/toggle_notif_setting" />
+
+    <Preference
+        app:key="check_perms"
+        app:title="@string/check_perms_setting"
+        app:summary="@string/check_perms_setting_desc">
+        <intent
+            android:targetPackage="ca.andries.vpnmanager"
+            android:targetClass="ca.andries.vpnmanager.MainActivity">
+            <extra android:name="permission_check" android:value="true" />
+        </intent>
+    </Preference>
+
+</PreferenceScreen>

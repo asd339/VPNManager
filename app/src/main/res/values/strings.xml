@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">VPN Manager</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="enabled_all_networks">Enabled for all networks</string>
+    <string name="enabled_some_networks">Enabled for some networks</string>
+    <string name="ok">OK</string>
+    <string name="delete">Delete</string>
+    <string name="matching_priority">Matching priority</string>
+    <string name="save">Save</string>
+    <string name="never_connected">Never connected</string>
+    <string name="profiles">Profiles</string>
+
+    <string name="last_connection_time">Last connection time: %s</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="vpn_provider">VPN Provider</string>
+    <string name="tunnel_name">Tunnel Name</string>
+    <string name="required_value">Value is required</string>
+    <string name="wifi_networks">Wi-Fi networks</string>
+    <string name="mobile_networks">Mobile networks</string>
+    <string name="ssid_incl_list_label">SSID Inclusion List (optional, one per line)</string>
+    <string name="ssid_excl_list_label">SSID Exclusion List (optional, one per line)</string>
+    <string name="carrier_incl_list_label">SIM Operator Name Inclusion List (optional, one per line)</string>
+    <string name="carrier_excl_list_label">SIM Operator Name Exclusion List (optional, one per line)</string>
+    <string name="delete_confirm">Are you sure you wish to delete this profile?</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_profiles">No profiles at the moment!\nFeel free to add one.</string>
+
+    <string name="permission_request">Permission request</string>
+    <string name="action_request">Action request</string>
+    <string name="fine_location_perm_prompt">VPN Manager has the ability to enable/disable VPNs for specific Wi-Fi SSIDs. This feature requires the location permission. If you are not interested in this feature, you may deny access to this permission.</string>
+    <string name="bg_location_perm_prompt">In order for VPN Manager to monitor the connected Wi-FI SSID in the background, the location permission must "allowed all the time".</string>
+    <string name="battery_optimization_prompt">In order for Wireguard to receive actions in the background, battery optimizations must be turned off for Wireguard. The system battery settings will be opened. Search for the Wireguard app and disable battery optimizations.</string>
+    <string name="wireguard_allow_remote_prompt">Ensure \"Allow remote control apps\" is enabled in Wireguard.</string>
+Side
+    <string name="serv_status_notif_channel_desc">Running service status</string>
+    <string name="serv_status_notif_text">Service is running, notification can be disabled in system app settings</string>
+    <string name="toggle_notif_channel_desc">Connection status/toggle</string>
+
+    <string name="main_pref_key">main_prefs</string>
+    <string name="profiles_pref_key">profiles</string>
+    <string name="profiles_next_id_key">next_pid</string>
+    <string name="perm_check_key">perm_check</string>
+
+    <string name="check_perms_setting">Check app permissions</string>
+    <string name="check_perms_setting_desc">Ensure relevant permissions are granted for this app</string>
+    <string name="toggle_notif_setting">Show notification with toggle button when connected to VPN</string>
+    <string name="toggle_notif_setting_desc">Adds ability to toggle the VPN connection while a profile is active</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="vpn_connected">VPN connected: %s</string>
+    <string name="vpn_disconnected">VPN disconnected</string>
+    <string name="toggle_connection">Toggle connection</string>
+
+    <string name="wireguard">Wireguard</string>
+    <string name="wireguard_with_tunnel">Wireguard (%s)</string>
+    <string name="openvpn">OpenVPN</string>
+    <string name="openvpn_with_tunnel">OpenVPN (%s)</string>
+    <string name="openvpn_ics">OpenVPN (ics-openvpn)</string>
+    <string name="openvpn_connect_profile">OpenVPN (Connect app, OVPN profile)</string>
+    <string name="openvpn_connect_as">OpenVPN (Connect app, OVPN access server)</string>
+    <string name="name">Test</string>
+    <string name="lastTime"/>
+
+</resources>
